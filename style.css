@@ -14,7 +14,7 @@ body {
   justify-content: space-around;
 }
 
-.untoldcoding {
+.untold {
   position: relative;
   margin: 20px 0;
   width: 300px;
@@ -25,14 +25,14 @@ body {
   transition: 1s;
 }
 
-.untoldcoding:hover {
+.untold:hover {
   z-index: 1111;
   transform: perspective(2000px) rotate(-10deg);
 
   box-shadow: 5px 5px 20px rgb(235, 151, 128);
 }
 
-.untoldcoding .img-container {
+.untold.img-container {
   position: relative;
   width: 100%;
   height: 100%;
@@ -43,7 +43,7 @@ body {
   transition: 1s;
 }
 
-.untoldcoding .img-container img {
+.untold.img-container img {
   position: absolute;
   left: 0;
   top: 0;
@@ -52,11 +52,11 @@ body {
   object-fit: cover;
 }
 
-.untoldcoding:hover .img-container {
+.untold:hover .img-container {
   transform: rotateY(-135deg);
 }
 
-.untoldcoding .untoldcoding-details {
+.untold.untold-details {
   position: absolute;
   left: 0;
   top: 0;
@@ -65,7 +65,7 @@ body {
   color: #000;
 }
 
-.untoldcoding .untoldcoding-details h2 {
+.untold .untold-details h2 {
   margin: 0;
   padding: 0.5em 0;
   text-transform: uppercase;
@@ -96,7 +96,7 @@ body {
     animation: untold 1s infinite ease-in-out;
   }
 }
-.untoldcoding .untoldcoding-details p {
+.untold .untold-details p {
   margin: 0;
   padding: 0;
   line-height: 25px;
